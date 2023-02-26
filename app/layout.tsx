@@ -22,7 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body className={`${inter.variable} ${amiri.variable} font-sans`}>
+      <body
+        className={`${inter.variable} ${amiri.variable} font-sans bg-primary`}
+      >
         {children}
       </body>
     </html>

@@ -1,6 +1,8 @@
 import { HeadingH1 } from "@ui/heading/headingH1";
 import { Container } from "@ui/utils/container";
+import Image from "next/image";
 import Link from "next/link";
+import landingImg from "public/img/landing.jpg";
 
 export const Mantainance = () => {
   return (
@@ -11,6 +13,7 @@ export const Mantainance = () => {
           Estamos trabajando para darte una mejor experiencia.
         </p>
       </Container>
+      <Image src={landingImg} alt="Geocursos" />
       <Container>
         <p className="text-center">
           Si necesitas información acerca de nuestros cursos{" "}
