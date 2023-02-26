@@ -23,7 +23,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <Script defer src="https://plausible.io/js/script.js" />
+      <Script
+        data-domain="geocursos-fe.vercel.app"
+        src="https://plausible.io/js/script.js"
+        strategy="afterInteractive"
+      />
       <body
         className={`${inter.variable} ${amiri.variable} font-sans bg-primary`}
       >
