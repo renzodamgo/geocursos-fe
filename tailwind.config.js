@@ -16,7 +16,7 @@ module.exports = {
 				'secondary': '#367B84',
 				'gray': '#F2F2F2',
 				'solid-gray': '#919191',
-				'black': '#131313',
+				// 'black': '#131313',
 			},
 		},
 	},
