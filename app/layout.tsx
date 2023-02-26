@@ -1,6 +1,7 @@
 import "./globals.css";
 
 import { Amiri, Inter } from "next/font/google";
+import Script from "next/script";
 
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const amiri = Amiri({
@@ -22,6 +23,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
+      <Script defer src="https://plausible.io/js/script.js" />
       <body
         className={`${inter.variable} ${amiri.variable} font-sans bg-primary`}
       >
