@@ -27,6 +27,7 @@ export const Mantainance = () => {
           alt="Geocursos"
           sizes="(max-width: 768px) 100vw,
 								50 vw"
+          priority
         />
       </div>
 
