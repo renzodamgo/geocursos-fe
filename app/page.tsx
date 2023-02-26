@@ -1,7 +1,9 @@
-import { Inter } from "next/font/google";
-
-const inter = Inter({ subsets: ["latin"] });
+import { Mantainance } from "./components/ui/mantainance";
 
 export default function Home() {
-  return <h1 className="text-3xl font-bold underline">Hello, Next.js!</h1>;
+  return (
+    <div>
+      <Mantainance />
+    </div>
+  );
 }

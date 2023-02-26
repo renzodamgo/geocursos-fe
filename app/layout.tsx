@@ -1,5 +1,14 @@
 import "./globals.css";
 
+import { Amiri, Inter } from "next/font/google";
+
+const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
+const amiri = Amiri({
+  weight: ["400", "700"],
+  subsets: ["latin"],
+  variable: "--font-amiri",
+});
+
 export const metadata = {
   title: "GeoCursos | Plataforma educativa de cursos de Geología",
   description:
@@ -13,7 +22,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <body>{children}</body>
+      <body className={`${inter.variable} ${amiri.variable} font-sans`}>
+        {children}
+      </body>
     </html>
   );
 }
