@@ -1,14 +1,12 @@
-import { Button } from './Button';
+import Image from "next/image";
+import GoogleImg from "public/ui_assets/Button/google.svg";
+import { Button } from "./Button";
 
 export const GoogleButton = () => {
-	return (
-		<Button intent="google">
-			<img
-				className="h-6"
-				src="ui_assets/Button/google.svg"
-				alt="Inicia sesión con Google"
-			/>
-			Iniciar sesión con Google
-		</Button>
-	);
+  return (
+    <Button intent="google">
+      <Image className="h-6" src={GoogleImg} alt="Inicia sesión con Google" />
+      Iniciar sesión con Google
+    </Button>
+  );
 };
