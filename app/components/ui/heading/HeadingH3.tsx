@@ -1,14 +1,18 @@
-import { ReactNode } from "react";
+import clsx from "clsx";
+import { HeadingTypes } from "./HeadingH1";
 
-type PropTypes = {
-  children: ReactNode;
-  className?: string;
-};
-
-export const HeadingH3 = ({ className, children }: PropTypes) => {
+export const HeadingH3 = ({
+  className,
+  alternative,
+  children,
+}: HeadingTypes) => {
   return (
-    <h1 className={`font-serif text-2xl md:text-4xl ${className}`}>
+    <h3
+      className={clsx(`font-serif text-2xl md:text-4xl ${className}`, {
+        "text-white": alternative,
+      })}
+    >
       {children}
-    </h1>
+    </h3>
   );
 };

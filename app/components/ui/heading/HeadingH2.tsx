@@ -1,14 +1,9 @@
-import { ReactNode } from "react";
+import { HeadingTypes } from "./HeadingH1";
 
-type PropTypes = {
-  children: ReactNode;
-  className?: string;
-};
-
-export const HeadingH2 = ({ className, children }: PropTypes) => {
+export const HeadingH2 = ({ className, children }: HeadingTypes) => {
   return (
-    <h1 className={`font-serif text-3xl md:text-5xl ${className}`}>
+    <h2 className={`font-serif text-3xl md:text-5xl ${className}`}>
       {children}
-    </h1>
+    </h2>
   );
 };
