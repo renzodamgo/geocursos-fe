@@ -1,8 +1,7 @@
 import "./globals.css";
 
+import PlausibleProvider from "next-plausible";
 import { Amiri, Inter } from "next/font/google";
-import Script from "next/script";
-
 const inter = Inter({ subsets: ["latin"], variable: "--font-inter" });
 const amiri = Amiri({
   weight: ["400", "700"],
@@ -23,11 +22,13 @@ export default function RootLayout({
 }) {
   return (
     <html lang="es">
-      <Script
-        data-domain="geocursos-fe.vercel.app"
-        src="https://plausible.io/js/script.js"
-        strategy="afterInteractive"
-      />
+      <head>
+        <PlausibleProvider
+          trackOutboundLinks={true}
+          trackLocalhost={true}
+          domain="geocursos.com.pe"
+        />
+      </head>
       <body
         className={`${inter.variable} ${amiri.variable} font-sans bg-primary`}
       >
