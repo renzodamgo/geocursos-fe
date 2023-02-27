@@ -1,4 +1,4 @@
-import { Mantainance } from "@components/mantainance";
+import { Mantainance } from "@components/Mantainance";
 
 export default function Home() {
   return (
