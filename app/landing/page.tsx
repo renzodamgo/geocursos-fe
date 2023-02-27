@@ -1,3 +1,5 @@
+import { coursesData } from "@data/courses.data";
+import { CourseCard } from "@ui/CourseCard";
 import { HeadingH2 } from "@ui/Heading/HeadingH2";
 import { HeadingH3 } from "@ui/Heading/HeadingH3";
 import { Link } from "@ui/Link/Link";
@@ -55,6 +57,12 @@ const Landing = () => {
           >
             Ver más cursos
           </Link>
+          <div className="pt-3"></div>
+          <div className="grid gap-6">
+            {coursesData.map((courseData) => (
+              <CourseCard data={courseData} loading key={courseData.id} />
+            ))}
+          </div>
         </Container>
       </section>
     </div>
