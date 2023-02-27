@@ -7,7 +7,7 @@ import landingImg from "public/img/landing.jpg";
 
 export const Mantainance = () => {
   return (
-    <div>
+    <div className="bg-primary min-h-screen overflow-hidden">
       <div className="grid md:grid-cols-2 md:h-[90vh] md:items-center">
         <Container className="md:pl-20 lg:pl-40 md:pr-10">
           <HeadingH1 className="md:hidden">

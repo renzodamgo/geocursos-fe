@@ -29,9 +29,7 @@ export default function RootLayout({
           domain="geocursos.com.pe"
         />
       </head>
-      <body
-        className={`${inter.variable} ${amiri.variable} font-sans bg-primary`}
-      >
+      <body className={`${inter.variable} ${amiri.variable} font-sans`}>
         {children}
       </body>
     </html>
