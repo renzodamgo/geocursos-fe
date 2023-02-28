@@ -28,6 +28,7 @@ export const Mantainance = () => {
           sizes="(max-width: 768px) 100vw,
 								50 vw"
           priority
+          placeholder="blur"
         />
       </div>
 
