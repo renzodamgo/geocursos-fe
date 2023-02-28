@@ -8,8 +8,8 @@ import { TestiCard } from "@ui/TestiCard";
 import { Paragraph } from "@ui/Text/Paragraph";
 import { Container } from "@ui/Utils/Container";
 import Image from "next/image";
-import HappyGirlImg from "public/img/happy_laptop.jpeg";
-import LandingImg from "public/img/landing.jpg";
+import HappyGirlImg from "public/img/happy_laptop.webp";
+import LandingImg from "public/img/landing.webp";
 import StarSvg from "public/svgs/stars.svg";
 const Landing = () => {
   return (
