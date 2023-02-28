@@ -8,7 +8,7 @@ export const HeadingH3 = ({
 }: HeadingTypes) => {
   return (
     <h3
-      className={clsx(`font-serif text-2xl md:text-4xl ${className}`, {
+      className={clsx(`font-serif text-2xl md:text-3xl ${className}`, {
         "text-white": alternative,
       })}
     >

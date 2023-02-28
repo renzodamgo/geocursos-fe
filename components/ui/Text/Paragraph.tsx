@@ -17,7 +17,7 @@ export const Paragraph = ({
   return (
     <p
       className={clsx(`md:text-lg ${className}`, {
-        "font-serif text-xl md:text-2xl": serif,
+        "font-serif text-xl md:text-xl": serif,
         "text-white": alternative,
       })}
     >

@@ -7,7 +7,7 @@ type PropTypes = {
 
 export const Container = ({ children, className }: PropTypes) => {
   return (
-    <div className={`container mx-auto px-6 py-10 ${className}`}>
+    <div className={`container mx-auto px-6 py-10 md:px-10 ${className}`}>
       {children}
     </div>
   );
