@@ -90,6 +90,30 @@ const Landing = () => {
           </div>
         </Container>
       </section>
+      <section id="estadisticas">
+        <Container className="bg-primary">
+          <div className="grid justify-items-center gap-8 text-center font-serif font-bold md:grid-cols-3 ">
+            <div className="stat flex flex-col items-center">
+              <p className="text-7xl">20+</p>
+              <h2 className="w-[70%] text-2xl">
+                Más de 20 cursos de geografía y sumando
+              </h2>
+            </div>
+            <div className="stat flex flex-col items-center">
+              <p className="text-7xl">10+</p>
+              <h2 className="w-[70%] text-2xl">
+                Estudiantes de más de 10 países aprendiendo con geocursos.
+              </h2>
+            </div>
+            <div className="stat flex flex-col items-center">
+              <p className="text-7xl">200+</p>
+              <h2 className="w-[70%] text-2xl">
+                Accede a más de 200 horas en VIVO y grabadas por curso.
+              </h2>
+            </div>
+          </div>
+        </Container>
+      </section>
       <section id="Testimonios">
         <Container>
           <HeadingH2 className="text-center">
