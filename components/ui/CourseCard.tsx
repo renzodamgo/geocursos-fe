@@ -44,8 +44,10 @@ export const CourseCard = ({ loading, data }: cardTypes) => {
       <div className="relative h-[150px] overflow-hidden">
         <Image
           className="h-full w-full object-cover"
-          src="img/course_bg_mock.png"
+          src="/img/course_bg_mock.png"
           alt="course bg"
+          height={500}
+          width={500}
         />
         <div className="absolute bottom-3 left-3 bg-[#2c313180] px-2 text-white backdrop:blur-xl">
           {data.students_quantity}

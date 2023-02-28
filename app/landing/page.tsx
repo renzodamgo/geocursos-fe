@@ -31,7 +31,7 @@ const Landing = () => {
           alt="Dictamos cursos de geología, minería, medio ambiente, metalurgia y carreras a fines. A precios académicos."
         />
       </section>
-      <section id="¿Por qué elegirnos?">
+      <section id="Por_que_elegirnos">
         <Container className="bg-secondary grid gap-4">
           <HeadingH3 alternative>
             Trabaja con data de proyectos mineros reales, resolviendo problemas
@@ -61,6 +61,24 @@ const Landing = () => {
           <div className="grid gap-6">
             {coursesData.map((courseData) => (
               <CourseCard data={courseData} loading key={courseData.id} />
+            ))}
+          </div>
+        </Container>
+      </section>
+      <section id="cursos_completos">
+        <Container className="bg-white">
+          <HeadingH2>Nuestros últimos cursos</HeadingH2>
+          <Link
+            intent="simple"
+            innerRef="/landing#Nuestros_ultimos_cursos"
+            serif
+          >
+            Ver más cursos
+          </Link>
+          <div className="pt-3"></div>
+          <div className="grid gap-6">
+            {coursesData.map((courseData) => (
+              <CourseCard data={courseData} key={courseData.id} />
             ))}
           </div>
         </Container>
