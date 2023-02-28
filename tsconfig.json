@@ -19,7 +19,7 @@
         "name": "next"
       }
     ],
-    "baseUrl": ".",
+    "baseUrl": "./",
     "paths": {
       "@ui/*": ["app/components/ui/*"],
       "@ui/": ["app/components/ui/"],
