@@ -22,7 +22,11 @@
     "baseUrl": ".",
     "paths": {
       "@ui/*": ["app/components/ui/*"],
+      "@ui/": ["app/components/ui/"],
       "@data/*": ["app/data/*"],
+      "@data/": ["app/data/"],
+      "@customTypes/": ["app/types/"],
+      "@components/": ["app/components/"],
       "@customTypes/*": ["app/types/*"],
       "@components/*": ["app/components/*"]
       // "@utils/*": ["app/components/ui/utils/*"],
