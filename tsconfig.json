@@ -19,16 +19,12 @@
         "name": "next"
       }
     ],
-    "baseUrl": "app",
+    "baseUrl": ".",
     "paths": {
-      "@ui/*": ["./components/ui/*"],
-      "@ui/": ["./components/ui/"],
-      "@data/*": ["./data/*"],
-      "@data/": ["./data/"],
-      "@customTypes/": ["./types/"],
-      "@components/": ["./components/"],
-      "@customTypes/*": ["./types/*"],
-      "@components/*": ["./components/*"]
+      "@/ui/*": ["app/components/ui/*"],
+      "@/data/*": ["app/data/*"],
+      "@/customTypes/*": ["app/types/*"],
+      "@/components/*": ["app/components/*"]
       // "@utils/*": ["app/components/ui/utils/*"],
       // "@heading/*": ["app/components/ui/heading/*"]
     }

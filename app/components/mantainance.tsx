@@ -1,6 +1,6 @@
-import { HeadingH1 } from "@ui/Heading/HeadingH1";
-import { Paragraph } from "@ui/Text/Paragraph";
-import { Container } from "@ui/Utils/Container";
+import { HeadingH1 } from "@/ui/Heading/HeadingH1";
+import { Paragraph } from "@/ui/Text/Paragraph";
+import { Container } from "@/ui/Utils/Container";
 import Image from "next/image";
 import Link from "next/link";
 import landingImg from "public/img/landing.jpg";
