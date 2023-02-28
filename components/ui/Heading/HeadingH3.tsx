@@ -1,5 +1,5 @@
+import { HeadingTypes } from "@ui/Heading/HeadingH1";
 import clsx from "clsx";
-import { HeadingTypes } from "./HeadingH1";
 
 export const HeadingH3 = ({
   className,

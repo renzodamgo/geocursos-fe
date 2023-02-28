@@ -1,4 +1,4 @@
-import { HeadingTypes } from "./HeadingH1";
+import { HeadingTypes } from "@ui/Heading/HeadingH1";
 
 export const HeadingH2 = ({ className, children }: HeadingTypes) => {
   return (

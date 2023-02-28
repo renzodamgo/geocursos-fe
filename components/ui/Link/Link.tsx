@@ -1,5 +1,5 @@
+import { ButtonOrLink, ButtonOrLinkType } from "@ui/Core/ButtonOrLink";
 import LinkNext from "next/link";
-import { ButtonOrLink, ButtonOrLinkType } from "../Core/ButtonOrLink";
 
 type LinkType = ButtonOrLinkType & {
   innerRef: string;

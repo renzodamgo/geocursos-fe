@@ -1,5 +1,5 @@
+import { ButtonOrLink, ButtonOrLinkType } from "@ui/Core/ButtonOrLink";
 import { MouseEventHandler } from "react";
-import { ButtonOrLink, ButtonOrLinkType } from "../Core/ButtonOrLink";
 
 type ButtonType = ButtonOrLinkType & {
   type?: "button" | "reset" | "submit" | undefined;

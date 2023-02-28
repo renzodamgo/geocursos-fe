@@ -1,6 +1,6 @@
+import { Button } from "@ui/Button/Button";
 import Image from "next/image";
 import GoogleImg from "public/ui_assets/Button/google.svg";
-import { Button } from "./Button";
 
 export const GoogleButton = () => {
   return (

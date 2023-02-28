@@ -1,10 +1,10 @@
-import { coursesData } from "@/data/courses.data";
-import { CourseCard } from "@/ui/CourseCard";
-import { HeadingH2 } from "@/ui/Heading/HeadingH2";
-import { HeadingH3 } from "@/ui/Heading/HeadingH3";
-import { Link } from "@/ui/Link/Link";
-import { Paragraph } from "@/ui/Text/Paragraph";
-import { Container } from "@/ui/Utils/Container";
+import { CourseCard } from "@ui/CourseCard";
+import { HeadingH2 } from "@ui/Heading/HeadingH2";
+import { HeadingH3 } from "@ui/Heading/HeadingH3";
+import { Link } from "@ui/Link/Link";
+import { Paragraph } from "@ui/Text/Paragraph";
+import { Container } from "@ui/Utils/Container";
+import { coursesData } from "@data/courses.data";
 import Image from "next/image";
 import LandingImg from "public/img/landing.jpg";
 import StarSvg from "public/svgs/stars.svg";

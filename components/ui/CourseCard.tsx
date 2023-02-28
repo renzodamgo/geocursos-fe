@@ -1,4 +1,4 @@
-import { CourseType } from "@/customTypes/course.types";
+import { CourseType } from "@customTypes/course.types";
 import Image from "next/image";
 
 type cardTypes = {

@@ -21,10 +21,10 @@
     ],
     "baseUrl": ".",
     "paths": {
-      "@/ui/*": ["app/components/ui/*"],
-      "@/data/*": ["app/data/*"],
-      "@/customTypes/*": ["app/types/*"],
-      "@/components/*": ["app/components/*"]
+      "@ui/*": ["components/ui/*"],
+      "@data/*": ["data/*"],
+      "@customTypes/*": ["types/*"],
+      "@components/*": ["components/*"]
       // "@utils/*": ["app/components/ui/utils/*"],
       // "@heading/*": ["app/components/ui/heading/*"]
     }
