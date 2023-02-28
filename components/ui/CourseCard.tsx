@@ -50,7 +50,7 @@ export const CourseCard = ({ loading, data }: cardTypes) => {
           width={500}
         />
         <div className="absolute bottom-3 left-3 bg-[#2c313180] px-2 text-white backdrop:blur-xl">
-          {data.students_quantity}
+          {data.students_quantity} Alumnos
         </div>
       </div>
       <div className="flex h-[250px] flex-col gap-1 overflow-hidden py-4 px-4">

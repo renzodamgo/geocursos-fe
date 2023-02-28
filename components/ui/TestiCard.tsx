@@ -1,4 +1,6 @@
 import Image from "next/image";
+import openImg from "public/svgs/open.svg"
+import closeImg from "public/svgs/close.svg";
 
 type Props = {
   name: string;
@@ -12,12 +14,12 @@ export const TestiCard = ({ name, details, occupation }: Props) => {
       <div className="relative flex-grow flex items-center">
         <p className="relative z-10">{details}</p>
         <Image
-          src="svgs/open.svg"
+          src={openImg}
           alt="testimonio"
           className="absolute top-[-5px] left-[-5px] z-0"
         />
         <Image
-          src="svgs/close.svg"
+          src={closeImg}
           alt="testimonio"
           className="absolute bottom-[-5px] right-[-5px] z-0"
         />
@@ -27,7 +29,9 @@ export const TestiCard = ({ name, details, occupation }: Props) => {
         <Image
           src="https://avatars.githubusercontent.com/u/54272736?v=4"
           alt="frapuccesco"
-          className="w-[50px] rounded-full border-2 border-gray"
+					className="w-[50px] rounded-full border-2 border-gray"
+					height={50}
+					width={50}
         />
         <div className="text-sm">
           <p className="font-bold">{name}</p>
